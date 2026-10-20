@@ -1,0 +1,62 @@
+{
+  "weekly_coverage": {
+    "starts_by_day": [
+      0,
+      1,
+      4,
+      1,
+      4,
+      1,
+      0
+    ],
+    "coverage": [
+      6,
+      6,
+      6,
+      6,
+      10,
+      11,
+      10
+    ],
+    "demand": [
+      6,
+      6,
+      6,
+      6,
+      10,
+      10,
+      8
+    ],
+    "headcount": 11,
+    "mip_gap": 0.0
+  },
+  "process_planning": {
+    "base_hours": {
+      "success": true,
+      "solver_status": 0,
+      "cost": 32208.467309753483,
+      "process_hours": [
+        19.549839228295813,
+        17.256162915326907,
+        9.131832797427654,
+        0.0
+      ],
+      "overtime_hours": 0,
+      "max_constraint_violation": 2.2737367544323206e-13
+    },
+    "with_overtime": {
+      "success": true,
+      "solver_status": 0,
+      "cost": 32208.467309753483,
+      "process_hours": [
+        19.549839228295813,
+        17.256162915326907,
+        9.131832797427654,
+        0.0
+      ],
+      "overtime_hours": 0.0,
+      "max_constraint_violation": 2.2737367544323206e-13
+    }
+  },
+  "scope": "illustrative demand and cost inputs; fixed base labor cost excluded from both scenarios"
+}
